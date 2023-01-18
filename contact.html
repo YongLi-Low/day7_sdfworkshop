@@ -59,6 +59,53 @@
             </div>
         </nav>
     </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <section>
+                <form action="#" method="POST" name="contact_form">
+                    <div class="mb-3">
+                        <h2>Contact Us</h2>
+                    </div>
+                    <div class="mb-3">
+                        <label for="fullname" class="form-label">Fullname</label>
+                        <input type="text" placeholder="Tan Ah Kow" required class="form-control">
+                        <span>Full Name is required</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" placeholder="abc123@gmail.com" required class="form-control">
+                        <span>Email is required in proper format</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="website" class="form-label">Website</label>
+                        <input type="url" placeholder="https://www.example.com" required pattern="(http/https)://.+" class="form-control">
+                        <span>URL is required in proper format, i.e. https://www.example.com</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="comments" class="form-label">Comments</label>
+                        <textarea name="comments" cols="50" rows="10" class="form-control"></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <button type="submit">Submit Form</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+    </div>
     
+    <footer>
+        Copyright &copy 2023, Hey Monday Pte. Ltd. All Rights Reserved.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>
